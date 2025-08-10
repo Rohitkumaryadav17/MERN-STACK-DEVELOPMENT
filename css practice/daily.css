@@ -1,0 +1,35 @@
+h1{
+    color: red;
+    text-align: center;
+
+}
+button{
+   background-color: aqua;
+   color: rgb(255, 0, 0);
+}
+p{
+    color:pink;
+    background-color: green;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+h2{
+    color: rgb(176, 183, 196);
+    color:#F566;
+    color: rgb(243, 237, 237);
+    background-color: black
+}
+h3{
+    text-align: center;
+    text-decoration: underline red;
+    font-size: larger;
+    text-transform: capitalize;
+
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-decoration: overline;
+
+      height: fit-content;
+      line-height: 2.5;
+
+
+    }   

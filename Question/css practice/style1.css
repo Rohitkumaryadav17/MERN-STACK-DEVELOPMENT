@@ -1,0 +1,32 @@
+h2{
+    color: orange;
+}
+button{
+    background-color: blue;
+    color: white;
+    text-decoration:overline;
+    text-decoration: greenyellow;
+}
+h3{
+    color: rgb(255,255,0);
+    color:#141413;
+    text-align:center;
+    line-height: 20px;
+    letter-spacing: 20px;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    font-weight: 100;
+    font-weight: normal;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-decoration: double;
+    text-decoration: wavy;
+    text-decoration: rgb(44, 11, 122);
+    
+}
+a{
+    text-decoration:overline red double
+}

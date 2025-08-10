@@ -1,0 +1,56 @@
+/* universal selector select all the page */
+*{  
+    background-color: rgb(237, 227, 217);
+}
+ /* element selector , multiple selector */
+h3,h1{
+    color: red;
+ }
+/* id selector  */
+#login{
+    background-color: green;
+}
+ /* class selector */
+.follow{
+    color: green;
+ }
+/* div inside element selector  */
+div input{
+    background-color: rgb(32, 49, 95);
+}
+/* sibbling slelctor */
+ul li{
+    color: orange
+}
+/* combination selector */
+p+h3{
+    color: aquamarine;
+}
+/* attribute selector */
+input[type="text"]{
+    color:blue;
+}
+/* psedo class
+:active
+:hover
+checked 
+:nth of type */
+button:hover{
+    color: red;
+    background-color: green;
+}
+button:active{
+    font-weight: 200px;
+    color: aliceblue;
+    background-color: aquamarine;
+}
+/* first letter psedo class 
+   first line psedo class
+   selection */
+h1::first-letter{
+    color: green;
+}
+h3::selection{
+    color: red;
+}
+  

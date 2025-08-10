@@ -1,0 +1,63 @@
+/* box model in Css
+height
+weidth 
+border
+padding
+margin */
+div{
+    height: 150px;
+    width:400px;
+    background-color: pink;
+    border-width:5px;
+    border-style:solid;
+    border-color:rgb(10, 10, 10);
+}
+
+/* border to set style 
+border-width
+border-style
+border-color */
+h1{
+    border-width:2px;
+    border-color: green;
+    border-style: dashed;
+}
+/* border short hand */
+div{
+    border:5px solid red;
+}
+/* border side 
+border left 
+border :right
+bordertop
+border bottom */
+div{
+    border-left-color: green;
+    border-top-style: dashed;
+}
+/* border radius */
+div{
+    border-radius: 50px;
+}
+/* padding property
+padding :left
+padding :right
+padding :top
+padding bottom */
+div{
+    padding-left: 20PX;
+    padding-right: 20px;
+}
+/* margin property used tp set outside of the box*/
+
+div{
+    margin: 20px;
+}
+/* inline element or block element */
+div{
+    
+}
+
+
+
+

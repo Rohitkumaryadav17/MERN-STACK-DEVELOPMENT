@@ -1,0 +1,110 @@
+/* Alpha channel 
+set opacity for a color  
+range 0-1 */
+/* div{
+    transition: 1s;
+    transition-delay: 1s;
+    transition-duration: 1s;
+     transition: margin-top 2s ease-in 0.2;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(140, 4, 4);
+
+} */
+/* #opacity{
+    background-color: #ffa511;
+opacity: 0.5;
+} */
+/* transion from one stage to other stage  */
+  /* property name|duration|timing function|delay */
+/* div:hover{
+    background-color: green;
+   border-radius: 50%;   
+} */
+/* div:hover{
+    margin-top: 400px;
+    background-color: rgb(192, 255, 226);
+
+} */
+/* trasform :::
+  rotate 
+  scale 
+  skew
+  translatr */
+  /* section{
+    margin-top: 100px;
+
+
+  }
+  div{
+    width:200px;
+    height: 50px;
+    text-align: center;
+    background-color: green;
+    border: 2px solid black;
+    margin: 10px;
+
+
+  }
+  div:nth-of-type(2n){
+    background-color: antiquewhite;
+  }
+  div:nth-of-type(3n){
+    background-color: pink;
+  }
+  #one{
+    transform: rotate(90deg);
+
+  }
+  #two{
+    transform: scaley(0.5);
+  }
+  #three{
+    transform: translate(50px,100px);
+  }
+  #four{
+    transform: skew(45deg);
+  } */
+  /* box shadow structure it empact in frame form */
+  /* div{
+    width:200px;
+    height: 50px;
+    text-align: center;
+    background-color: green;
+    border: 2px solid black;
+    margin: 10px auto;
+    box-shadow: 2px 2px 8px red;
+    width: 200px;
+    background-image: url(WhatsApp\ Image\ 2025-06-24\ at\ 21.49.34_817fe029.jpg);
+    background-size: cover;
+
+  }
+   */
+   .card{
+    width: 200px;
+    height: 350px;
+    border: 2px solid black;
+    display: inline-block;
+    margin:10px;
+    border-radius: 5px;
+    box-shadow: 5px  10 px solid black;
+    transition: 2s;
+
+
+   }
+   img{
+    width: 96%;
+    border-radius: 5px 5px 0 0;
+    background-size:cover;
+
+
+   }
+.card:hover{
+    box-shadow: 0 8px 16px black ;
+    background-color: green;
+
+
+}
+/* postion
+ static ,realtive,absolute ,fixed */
+ 

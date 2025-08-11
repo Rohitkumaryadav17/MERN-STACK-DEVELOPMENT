@@ -1,0 +1,48 @@
+/* flexbox concept */
+/* arranging item in row or column wise */
+/* it make responsive webpage */
+
+#container{
+    width: 500px;
+    height: 100px;
+
+    background-color: rgb(195, 206, 206);
+    margin: 10px auto;
+    border: 2px solid black;
+   display: flex; //row 
+   
+
+
+ 
+}
+h1{
+    text-align: center;
+}
+#container div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    margin: 20px;
+    flex-direction: column-reverse;
+    
+}
+/* justify content   box ke bich ki distance ko maintain karta hai 
+  */
+#container div{
+    justify-content: flex-start;
+    justify-content: flex-end;
+
+
+}
+/* flex wrap set whether flex item are forced onto one line or can wrap onto  multiple line   */
+  /* flex-wrap: nonwrap;
+  flex-wrap:wrap 
+  flex-wrap: wrap-reverse */
+  /* div{
+    flex-wrap: wrap;
+  } */
+/* 
+  alingn item 
+  justify content:Flex-start
+  justify content :flex-end
+  justify content:center */

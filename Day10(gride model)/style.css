@@ -1,0 +1,25 @@
+/* css grid setting a container display to grid woll make all children grid item */
+/* container {
+    display: grid;
+} */
+ .container{
+    width: 600px;
+    height: 300px;
+    background-color: aqua;
+    display: flex; 
+    grid-template-rows:50px 50px 50px 50px 50px 50px 50px;
+    grid-template-columns: auto;
+
+ }
+ .item{
+    width: 100px;
+    height:50px;
+    background-color: yellow;
+
+    margin: 2px;
+    text-align: center;
+
+
+ }
+ /* grid model row and column wise  */
+ /* grid template they define the line and trackig sizing  */

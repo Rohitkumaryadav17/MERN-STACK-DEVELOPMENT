@@ -8,7 +8,7 @@ function Producttab(){
     return(
     <>
   <Product title="camera" price={2000} features2={option}/>
-    <Product title="Phone" price={35000} features2={option}/>
+    <Product title="smartphone" price={35000} features2={option}/>
       <Product title="machine" price={40000} features2={option}/>
  
  
